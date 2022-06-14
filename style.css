@@ -487,6 +487,7 @@ footer .social a:hover {
 
   transition: 0.3s;
   transform: translateY(100%);
+  z-index: 1;
 }
 .back-to-top.show {
   visibility: visible;

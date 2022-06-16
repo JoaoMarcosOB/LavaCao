@@ -303,13 +303,14 @@ nav.show div.icon-close {
   left: -33%;
   z-index: 0;
 }
-#about .image img {
+#about .image iframe {
   position: relative;
   border-radius: 0.25rem;
+  max-width: 100%;
   
 }
 
-#about .image img,
+#about .image iframe,
 #about .image::before {
   border-radius: 0.25rem;
 }
